@@ -76,10 +76,15 @@ class 中文报错控制台(InteractiveConsole):
         return 原始信息
 
 def 解释器(lang=None):
-    """
-    zhpy解释器
-    """
     控制台 = 中文报错控制台()
+
+    """
+    参考: https://stackoverflow.com/questions/893053/seeing-escape-characters-when-pressing-the-arrow-keys-in-python-shell
+    """
+    try:
+        import readline
+    except ImportError:
+        pass
     控制台.interact()
 
 if __name__=="__main__":

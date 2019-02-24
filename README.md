@@ -10,7 +10,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
-下面列出报错实例, 对应中文. 最后列出相关Python编译器源码
+下面列出报错实例与原反馈信息, 后一行是现在的中文反馈信息.
 
 ### 语法错误
 参考: https://docs.python.org/3/tutorial/errors.html#syntax-errors
