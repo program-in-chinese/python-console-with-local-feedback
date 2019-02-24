@@ -1,5 +1,15 @@
 ## Python3报错信息中英对应列表
 
+命令行下运行:
+```
+$ 明义
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 05:52:31) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+(中文报错控制台)
+>>> 
+```
+
 下面列出报错实例, 对应中文. 最后列出相关Python编译器源码
 
 ### 语法错误

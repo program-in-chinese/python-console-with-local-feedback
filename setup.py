@@ -5,7 +5,7 @@ with open("README.md", "r") as 自述文件:
 
 setuptools.setup(
     name="python-console-with-local-feedback",
-    version="0.0.1",
+    version="0.0.2",
     author="吴烜",
     author_email="",
     description="反馈信息为中文的Python控制台",
